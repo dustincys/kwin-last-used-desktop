@@ -19,7 +19,7 @@ function switchDesktopX(x) {
     if (workspace.currentDesktop == x) {
         workspace.currentDesktop = lastDesktop;
     } else {
-        workspace.currentDesktop = x
+        workspace.currentDesktop = x;
     }
     return;
 }
